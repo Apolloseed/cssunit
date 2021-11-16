@@ -10,10 +10,11 @@ margin: 12px;
 }
 
 header {
-background-color: #294969; 
-color: ghostwhite;
-padding: 10px 15px;
-border: 15px solid firebrick;
+  height: 25vh;
+  background-color: #294969; 
+  color: ghostwhite;
+  padding: 10px 15px;
+  border: 15px solid firebrick;
 }
 
 footer {
@@ -24,6 +25,13 @@ width: 200px;
   color: #294969;
   font-size: .8rem;
   text-align: center;
+}
+
+section {
+  min-height: 100vh;
+  padding: 1rem;
+  border-bottom: 2px dotted #666; 
+  background-color: azure;
 }
 
 aside img, #bio {
